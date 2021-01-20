@@ -1,0 +1,73 @@
+Evaluating...: ../checkpoint
+attack model: ../checkpoint/resnet50_mixup.pth
+target model: ../checkpoint/resnet50_vallina.pth
+<< natural attack >> Average loss: 0.3268, Predict Success Rate: 9150/10000 (91.50%)
+<< natural target >> Average loss: 0.3154, Predict Success Rate: 9312/10000 (93.12%)
+<< black-box:fgsm >> Average loss: 3.1943, Predict Success Rate: 6023/10000 (60.23%)
+<< black-box:pgd10 >> Average loss: 3.1909, Predict Success Rate: 5282/10000 (52.82%)
+attack model: ../checkpoint/resnet50_mixup.pth
+target model: ../checkpoint/resnet50_vbsd_v3_nf_0.6_beta_1.0.pth
+<< natural attack >> Average loss: 0.3268, Predict Success Rate: 9150/10000 (91.50%)
+<< natural target >> Average loss: 0.4440, Predict Success Rate: 9068/10000 (90.68%)
+<< black-box:fgsm >> Average loss: 1.1626, Predict Success Rate: 7527/10000 (75.27%)
+<< black-box:pgd10 >> Average loss: 1.3707, Predict Success Rate: 6188/10000 (61.88%)
+attack model: ../checkpoint/resnet50_mixup.pth
+target model: ../checkpoint/resnet50_advtrain_test.pth
+<< natural attack >> Average loss: 0.3268, Predict Success Rate: 9150/10000 (91.50%)
+<< natural target >> Average loss: 0.4904, Predict Success Rate: 8455/10000 (84.55%)
+<< black-box:fgsm >> Average loss: 0.6418, Predict Success Rate: 7945/10000 (79.45%)
+<< black-box:pgd10 >> Average loss: 0.9325, Predict Success Rate: 6907/10000 (69.07%)
+attack model: ../checkpoint/resnet50_vallina.pth
+target model: ../checkpoint/resnet50_mixup.pth
+<< natural attack >> Average loss: 0.3154, Predict Success Rate: 9312/10000 (93.12%)
+<< natural target >> Average loss: 0.3268, Predict Success Rate: 9150/10000 (91.50%)
+<< black-box:fgsm >> Average loss: 0.7653, Predict Success Rate: 8434/10000 (84.34%)
+<< black-box:pgd10 >> Average loss: 0.5486, Predict Success Rate: 8644/10000 (86.44%)
+attack model: ../checkpoint/resnet50_vallina.pth
+target model: ../checkpoint/resnet50_vbsd_v3_nf_0.6_beta_1.0.pth
+<< natural attack >> Average loss: 0.3154, Predict Success Rate: 9312/10000 (93.12%)
+<< natural target >> Average loss: 0.4440, Predict Success Rate: 9068/10000 (90.68%)
+<< black-box:fgsm >> Average loss: 1.1005, Predict Success Rate: 7850/10000 (78.50%)
+<< black-box:pgd10 >> Average loss: 0.9491, Predict Success Rate: 8127/10000 (81.27%)
+attack model: ../checkpoint/resnet50_vallina.pth
+target model: ../checkpoint/resnet50_advtrain_test.pth
+<< natural attack >> Average loss: 0.3154, Predict Success Rate: 9312/10000 (93.12%)
+<< natural target >> Average loss: 0.4904, Predict Success Rate: 8455/10000 (84.55%)
+<< black-box:fgsm >> Average loss: 0.5431, Predict Success Rate: 8265/10000 (82.65%)
+<< black-box:pgd10 >> Average loss: 0.5315, Predict Success Rate: 8324/10000 (83.24%)
+attack model: ../checkpoint/resnet50_vbsd_v3_nf_0.6_beta_1.0.pth
+target model: ../checkpoint/resnet50_mixup.pth
+<< natural attack >> Average loss: 0.4440, Predict Success Rate: 9068/10000 (90.68%)
+<< natural target >> Average loss: 0.3268, Predict Success Rate: 9150/10000 (91.50%)
+<< black-box:fgsm >> Average loss: 1.2020, Predict Success Rate: 7664/10000 (76.64%)
+<< black-box:pgd10 >> Average loss: 1.3024, Predict Success Rate: 6230/10000 (62.30%)
+attack model: ../checkpoint/resnet50_vbsd_v3_nf_0.6_beta_1.0.pth
+target model: ../checkpoint/resnet50_vallina.pth
+<< natural attack >> Average loss: 0.4440, Predict Success Rate: 9068/10000 (90.68%)
+<< natural target >> Average loss: 0.3154, Predict Success Rate: 9312/10000 (93.12%)
+<< black-box:fgsm >> Average loss: 2.8324, Predict Success Rate: 6175/10000 (61.75%)
+<< black-box:pgd10 >> Average loss: 2.3167, Predict Success Rate: 6442/10000 (64.42%)
+attack model: ../checkpoint/resnet50_vbsd_v3_nf_0.6_beta_1.0.pth
+target model: ../checkpoint/resnet50_advtrain_test.pth
+<< natural attack >> Average loss: 0.4440, Predict Success Rate: 9068/10000 (90.68%)
+<< natural target >> Average loss: 0.4904, Predict Success Rate: 8455/10000 (84.55%)
+<< black-box:fgsm >> Average loss: 0.6436, Predict Success Rate: 7900/10000 (79.00%)
+<< black-box:pgd10 >> Average loss: 1.0684, Predict Success Rate: 6668/10000 (66.68%)
+attack model: ../checkpoint/resnet50_advtrain_test.pth
+target model: ../checkpoint/resnet50_mixup.pth
+<< natural attack >> Average loss: 0.4904, Predict Success Rate: 8455/10000 (84.55%)
+<< natural target >> Average loss: 0.3268, Predict Success Rate: 9150/10000 (91.50%)
+<< black-box:fgsm >> Average loss: 1.0492, Predict Success Rate: 6730/10000 (67.30%)
+<< black-box:pgd10 >> Average loss: 1.0896, Predict Success Rate: 6445/10000 (64.45%)
+attack model: ../checkpoint/resnet50_advtrain_test.pth
+target model: ../checkpoint/resnet50_vallina.pth
+<< natural attack >> Average loss: 0.4904, Predict Success Rate: 8455/10000 (84.55%)
+<< natural target >> Average loss: 0.3154, Predict Success Rate: 9312/10000 (93.12%)
+<< black-box:fgsm >> Average loss: 1.3890, Predict Success Rate: 7580/10000 (75.80%)
+<< black-box:pgd10 >> Average loss: 1.5147, Predict Success Rate: 7434/10000 (74.34%)
+attack model: ../checkpoint/resnet50_advtrain_test.pth
+target model: ../checkpoint/resnet50_vbsd_v3_nf_0.6_beta_1.0.pth
+<< natural attack >> Average loss: 0.4904, Predict Success Rate: 8455/10000 (84.55%)
+<< natural target >> Average loss: 0.4440, Predict Success Rate: 9068/10000 (90.68%)
+<< black-box:fgsm >> Average loss: 1.2752, Predict Success Rate: 6412/10000 (64.12%)
+<< black-box:pgd10 >> Average loss: 1.3970, Predict Success Rate: 6120/10000 (61.20%)
