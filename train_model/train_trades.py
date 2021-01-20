@@ -27,10 +27,11 @@ parser.add_argument('--no-cuda', action='store_true', default=False,help='disabl
 parser.add_argument('--seed', type=int, default=1, metavar='S',help='random seed (default: 1)')
 parser.add_argument('--log-interval', type=int, default=30, metavar='N',help='how many batches to wait before logging training status')
 parser.add_argument('--save-dir', type=str, default='log')
+parser.add_argument('--gpu-id', type=str, default='4')
 parser.add_argument('--beta', type=float, default=6.0)
 args = parser.parse_args()
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu_id
 
 args.cuda = not args.no_cuda and torch.cuda.is_available()
 
